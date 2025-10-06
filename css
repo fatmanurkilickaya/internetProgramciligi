@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="lib/script.js"></script>
+    <style>
+      h1 {
+        color: green;
+        background-color: #c345cf;
+      }
+      div {
+        border: 5px solid black;
+        margin-top: 150px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 150px;
+        //padding-left:100px;
+        //padding-rigth: 100px;
+        //padding-top:500px;
+        padding: 100px;
+        background-color: pink;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      table td,
+      th {
+        border: 1px solid;
+        margin: 20px;
+        padding: 20px;
+      }
+      td {
+        heigth: 30px;
+        //background-color: gray;
+      }
+      th {
+        heigth: 5px;
+        // background-color: blue;
+        text-align: center;
+      }
+      tr:hover {
+        background-color: gray;
+      }
+      //tr:nth-child(even){
+      //background-color: red;
+      //}
+      //tr:nth-child(odd){
+      //background-color: blue;
+      //}
+      form {
+        border: 1px solid white;
+        padding-top: 50px;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        background-color:gray;
+      }
+      input[type=text]:focus,[type=password]:focus {
+        background-color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Fatma nur kılıçkaya</h1>
+    </div>
+    <table>
+      <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Fatma Nur</td>
+        <td>Kılıçkaya</td>
+        <td>fnurkilickaya@kayseri.edu.tr</td>
+      </tr>
+      <tr>
+        <td>kübra</td>
+        <td>Kılıçkaya</td>
+        <td>kübra@kayseri.edu.tr</td>
+      </tr>
+      <tr>
+        <td>Fatma Nur</td>
+        <td>Kılıçkaya</td>
+        <td>fnurkilickaya@kayseri.edu.tr</td>
+      </tr>
+      <tr>
+        <td>kübra</td>
+        <td>Kılıçkaya</td>
+        <td>kübra@kayseri.edu.tr</td>
+      </tr>
+    </table>
+
+    <form>
+      Ad: <input type="text" /> Soyad: <input type="text" /> Email:
+      <input type="text" /> Şifre: <input type="password" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
