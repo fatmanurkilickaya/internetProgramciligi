@@ -1,0 +1,24 @@
+function selamver(mesaj) {
+    console.log(mesaj)
+}
+
+// selamver("fatmanur");
+// selamver( "merhaba");
+// selamver("selam");
+// selamver();
+
+function yasHesapla(dogumYili) {
+    return new Date().getFullYear() - dogumYili
+}
+
+function emeklilikYasHesapla(dogumYili, isim) {
+    let yas = yasHesapla(dogumYili)
+    let kalan_sene = 65 - yas
+    if (kalan_sene > 0)
+        console.log(`Sn. ${isim} emekli olmanıza ${kalan_sene} yıl kalmıştır`)
+    else
+        console.log("zaten emekli oldunuz")
+}
+
+emeklilikYasHesapla(1980, "ayşe")
+emeklilikYasHesapla(1961, "ahmet")
